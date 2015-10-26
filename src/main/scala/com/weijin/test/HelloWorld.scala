@@ -1,5 +1,5 @@
 package com.weijin.test
-
+//http://blog.csdn.net/laiwenqiang/article/details/40978589
 
 object HelloWorld {
   def main(args: Array[String]) {
@@ -36,7 +36,7 @@ object HelloWorld {
     Array(1, 2, 3).foreach(print);
     println();
 
-    //此处输出为：333435。+‘ ’后，默认转化未char类型了。  
+    //此处输出为：333435。+‘ ’后，默认转化未char类型了。 Scala编程 
     Array(1, 2, 3).foreach((a: Int) => print(a + ' '));
     println();
 
