@@ -43,4 +43,11 @@ object HelloWorld {
     "hello".foreach((s: Char) => print(s + " "));
     println();
   }
+  
+  def f(v:Any) = v match {
+    case null => "null"
+    case i:Int => {println("int")}
+    case s:String => s
+    case _ => "others"
+}
 }  
